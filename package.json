@@ -57,10 +57,10 @@
     "webpack-merge": "5.4.0"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-hot-loader": "^4.12.21"
+    "normalize.css": "8.0.1",
+    "prop-types": "15.7.2",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-hot-loader": "4.12.21"
   }
 }
