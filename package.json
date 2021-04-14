@@ -50,7 +50,7 @@
     "sass-rem": "2.0.1",
     "sass-resources-loader": "2.1.1",
     "style-loader": "2.0.0",
-    "webpack": "5.32.0",
+    "webpack": "5.33.2",
     "webpack-cli": "4.6.0",
     "webpack-dev": "1.1.1",
     "webpack-dev-server": "3.11.2",
