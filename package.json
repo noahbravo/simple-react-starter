@@ -44,7 +44,7 @@
     "mini-css-extract-plugin": "1.6.0",
     "node-sass": "6.0.0",
     "postcss": "8.3.1",
-    "postcss-loader": "5.3.0",
+    "postcss-loader": "6.1.0",
     "prettier": "2.3.1",
     "sass-loader": "12.1.0",
     "sass-rem": "3.0.0",
