@@ -1,6 +1,5 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const autoprefixer = require('autoprefixer')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = (mode) => {
@@ -16,16 +15,18 @@ module.exports = (mode) => {
       rules: [
         {
           test: /\.js$/,
-          loader: 'babel-loader',
           exclude: /node_modules/,
-          options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['@babel/plugin-proposal-class-properties']
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env', '@babel/preset-react'],
+              plugins: ['@babel/plugin-proposal-class-properties']
+            }
           }
         },
         {
           test: /\.s(a|c)ss$/,
-          loader: [
+          use: [
             isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
             {
               loader: 'css-loader',
@@ -39,7 +40,6 @@ module.exports = (mode) => {
             {
               loader: 'postcss-loader',
               options: {
-                plugins: [autoprefixer()],
                 sourceMap: isDevelopment
               }
             },
@@ -65,7 +65,10 @@ module.exports = (mode) => {
         },
         {
           test: /\.(png|jpg|gif)$/,
-          use: ['file-loader']
+          type: 'asset/resource',
+          generator: {
+            filename: './public/images/[name][ext]'
+          }
         }
       ]
     },
