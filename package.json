@@ -22,15 +22,15 @@
   "author": "Elena Bravo",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "7.16.8",
-    "@babel/core": "7.16.12",
+    "@babel/cli": "7.17.0",
+    "@babel/core": "7.17.0",
     "@babel/plugin-proposal-class-properties": "7.16.7",
     "@babel/preset-env": "7.16.11",
     "@babel/preset-react": "7.16.7",
     "autoprefixer": "10.4.2",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.2.3",
-    "css-loader": "6.5.1",
+    "css-loader": "6.6.0",
     "eslint": "8.8.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.3.0",
@@ -53,7 +53,7 @@
     "webpack": "5.68.0",
     "webpack-cli": "4.9.2",
     "webpack-dev": "1.1.1",
-    "webpack-dev-server": "4.7.3",
+    "webpack-dev-server": "4.7.4",
     "webpack-merge": "5.8.0"
   },
   "dependencies": {
