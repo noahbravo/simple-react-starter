@@ -22,12 +22,12 @@
   "author": "Elena Bravo",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "7.17.6",
-    "@babel/core": "7.17.9",
+    "@babel/cli": "7.17.10",
+    "@babel/core": "7.17.10",
     "@babel/plugin-proposal-class-properties": "7.16.7",
-    "@babel/preset-env": "7.16.11",
+    "@babel/preset-env": "7.17.10",
     "@babel/preset-react": "7.16.7",
-    "autoprefixer": "10.4.5",
+    "autoprefixer": "10.4.6",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.2.5",
     "css-loader": "6.7.1",
@@ -38,12 +38,12 @@
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.29.4",
-    "eslint-plugin-react-hooks": "4.4.0",
+    "eslint-plugin-react-hooks": "4.5.0",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "5.5.0",
     "mini-css-extract-plugin": "2.6.0",
     "node-sass": "7.0.1",
-    "postcss": "8.4.12",
+    "postcss": "8.4.13",
     "postcss-loader": "6.2.1",
     "prettier": "2.6.2",
     "sass-loader": "12.6.0",
@@ -59,8 +59,8 @@
   "dependencies": {
     "normalize.css": "8.0.1",
     "prop-types": "15.8.1",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
     "react-hot-loader": "4.13.0"
   }
 }
